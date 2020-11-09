@@ -1,12 +1,19 @@
 .navbar {
     font-family: 'Sofia', cursive;
+    font-size: 20px;
+    font-weight: bold;
 }
-.bg-light {
-    background-color: mediumvioletred;
+h1 {
+    font-family: 'Bad Script';
+}
+p {
+    font-family: 'Bad Script';
+    font-size: 18px;
 }
 .container {
-    margin-top: auto;
-    margin-left: 0 auto;
+    max-width: 800px;
+    margin-left: 20px;
+    background-color: white;
 }
 body {
     background-image: url(https://lh3.googleusercontent.com/proxy/QZAEyRiCvHxY21F6O_t1xiGz-VguMcCKkEKfm8KPRe_hm_Rgm_8DLybaBXcZTqyPnn5Mtmjr4nPQO515gyKyni7l-qwu78Pu1YHyAgtE4v6UORWqMF0XGG9SV59aijM2Sgs9V9g5tPTT2x2oEQ);
