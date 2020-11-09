@@ -1,6 +1,17 @@
 .navbar {
     font-family: 'Sofia', cursive;
 }
+.bg-light {
+    background-color: mediumvioletred;
+}
+.container {
+    margin-top: auto;
+    margin-left: 0 auto;
+}
+body {
+    background-image: url(https://lh3.googleusercontent.com/proxy/QZAEyRiCvHxY21F6O_t1xiGz-VguMcCKkEKfm8KPRe_hm_Rgm_8DLybaBXcZTqyPnn5Mtmjr4nPQO515gyKyni7l-qwu78Pu1YHyAgtE4v6UORWqMF0XGG9SV59aijM2Sgs9V9g5tPTT2x2oEQ);
+    background-size: cover;
+}
 
 @media only screen and (max-width: 600px) {
   body {
