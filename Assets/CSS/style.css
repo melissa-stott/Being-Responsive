@@ -21,11 +21,16 @@ p {
 body {
     background-image: url("../Images/20180804_132201.jpg");
     background-repeat: no-repeat;
+    margin-bottom: 100px;
 }
-
-@media only screen and (max-width: 600px) {
-  body {
-    background-image: cover;
-    background-color: lightblue;
-  }
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;  
+    background-color: mediumvioletred;
+    color: wheat;
+    text-align: center;
+    font-family: 'Sofia', cursive;
+    font-size: 16px;
 }
