@@ -15,16 +15,17 @@ p {
 .container {
     width: 66vw;
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 40px;
     background-color: white;
 }
 body {
-    background-image: url(https://lh3.googleusercontent.com/proxy/QZAEyRiCvHxY21F6O_t1xiGz-VguMcCKkEKfm8KPRe_hm_Rgm_8DLybaBXcZTqyPnn5Mtmjr4nPQO515gyKyni7l-qwu78Pu1YHyAgtE4v6UORWqMF0XGG9SV59aijM2Sgs9V9g5tPTT2x2oEQ);
-    background-size: cover;
+    background-image: url("../Images/20180804_132201.jpg");
+    background-repeat: no-repeat;
 }
 
 @media only screen and (max-width: 600px) {
   body {
+    background-image: cover;
     background-color: lightblue;
   }
 }
