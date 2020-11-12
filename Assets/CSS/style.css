@@ -13,11 +13,13 @@ p {
     font-size: 18px;
     margin-left: 0;
 }
-.container {
-    /* width: 66vw; */
-    margin-right: auto;
-    margin-left: 20px;
-    margin-top: 40px;
+.container-md {
+    position: relative;
+    width: 66vw;
+    left: auto;
+    top: 40px;
+    right: 40px;
+    bottom: 40px;
     background-color: white;
 }
 body {
@@ -38,4 +40,14 @@ body {
 }
 .btn-primary {
     margin-bottom: 20px;
+}
+form {
+    width: 66vw;
+    background-color: white;
+    position: relative;
+    left: 40px;
+    right: 40px;
+}
+.form-group {
+    margin: 20px;
 }
