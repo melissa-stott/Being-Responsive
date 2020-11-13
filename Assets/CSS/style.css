@@ -18,7 +18,7 @@ p {
 }
 .container {
     position: relative;
-    width: 66vw;
+    width: 60%;
     left: auto;
     top: 40px;
     right: 40px;
@@ -34,8 +34,22 @@ body {
     border: 1px solid darkslategray;
     border-radius: 4px;
     padding: 5px;
-    width: 350px;
-    height: 350px;
+    width: 100%;
+    height: auto;
+}
+.profile {
+    max-width: 30%;
+    height: auto;
+}
+img {
+    box-sizing: border-box;
+    display: block;
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    border: 0;
+    padding: 3px;
 }
 .grid-container > div {
     position: relative;
@@ -45,6 +59,8 @@ body {
     padding: 20px;
     font-size: 30px;
     text-align: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    grid-gap: 1rem;
 }
 .item1 {
     grid-column-start: 1;
