@@ -32,6 +32,9 @@ body {
     margin-bottom: 100px;
     animation:sky_anim 180s linear infinite;
 }
+hr {
+    border-top: 3px solid darkmagenta;
+}
 .TextWrap {
     float: left;
     margin: 10px;
@@ -40,8 +43,8 @@ body {
     border: 1px solid darkslategray;
     border-radius: 4px;
     padding: 5px;
-    width: 100%;
-    height: auto;
+    width: 350px;
+    height: 350px;
 }
 .profile {
     max-width: 30%;
@@ -51,8 +54,8 @@ img {
     box-sizing: border-box;
     display: block;
     object-fit: contain;
-    width: 100%;
-    height: auto;
+    width: 350px;
+    height: 350px;
     margin: 0;
     border: 0;
     padding: 3px;
