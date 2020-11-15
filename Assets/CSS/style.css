@@ -1,3 +1,4 @@
+/* stylizes my navbar */
 .navbar {
     font-family: 'Sofia', cursive;
     font-size: 22px;
@@ -5,9 +6,11 @@
     width: 100%;
     margin-right: 0%;
 }
+/* how my name appears on the navbar */
 .navbar-brand {
     font-size: 30px;
 }
+/* custom font for my about me page */
 h1 {
     font-family: 'Bad Script';
 }
@@ -16,16 +19,16 @@ p {
     font-size: 18px;
     margin-left: 0;
 }
+/* determines how my container is displayed on the page */
 .container {
     position: relative;
     width: 80%;
     height: 100%;
     left: auto;
     top: 40px;
-    /* right: 40px; */
-    /* bottom: auto; */
     background-color: white;
 }
+/* added a photo that I took as the background, and added animation */
 body {
     background-image: url("../Images/20180804_132201.jpg");
     background-repeat: no-repeat;
@@ -35,10 +38,12 @@ body {
 hr {
     border-top: 3px solid darkmagenta;
 }
+/* enables the text of about me to wrap around my picture */
 .TextWrap {
     float: left;
     margin: 10px;
 }
+/* created borders around my thumbnails */
 .img-thumbnail {
     border: 1px solid darkslategray;
     border-radius: 4px;
@@ -46,6 +51,7 @@ hr {
     width: 350px;
     height: 350px;
 }
+/* styling for my profile pic. separate from thumbnail images. */
 .profile {
     max-width: 30%;
     height: auto;
@@ -60,17 +66,7 @@ img {
     border: 0;
     padding: 3px;
 }
-.grid-container > div {
-    position: relative;
-    left: auto;
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
-    grid-gap: 1rem;
-}
+/* added style specific to header of contact page */
 .item1 {
     grid-column-start: 1;
     grid-column-end: 3;
@@ -79,7 +75,8 @@ img {
     color: indigo;
     display: flex;
     align-items: left;
-}    
+} 
+/* created a sticky footer that always shows on the bottom of the screen */
 .footer {
     position: fixed;
     left: 0;
