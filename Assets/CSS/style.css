@@ -18,6 +18,7 @@ p {
     font-family: 'Bad Script';
     font-size: 18px;
     margin-left: 0;
+    margin: 10px;
 }
 /* determines how my container is displayed on the page */
 .container {
