@@ -77,6 +77,13 @@ img {
     display: flex;
     align-items: left;
 } 
+
+.statement {
+    font-size: 15px;
+    font-family: cursive;
+    text-decoration: underline;
+    font-weight: bold;
+}
 /* created a sticky footer that always shows on the bottom of the screen */
 .footer {
     position: fixed;
