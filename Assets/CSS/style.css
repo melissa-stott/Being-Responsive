@@ -13,6 +13,8 @@
 /* custom font for my about me page */
 h1 {
     font-family: 'Bad Script';
+    font-size: 22px;
+    font-weight: bolder;
 }
 p {
     font-family: 'Bad Script';
